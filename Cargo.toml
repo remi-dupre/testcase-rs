@@ -1,0 +1,10 @@
+[package]
+name = "testcase"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+testcase = { path = "." }
+testcase_derive = { path = "testcase_derive" }
