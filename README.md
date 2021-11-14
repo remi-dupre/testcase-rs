@@ -63,9 +63,9 @@ Domain-specific APIs
 
 ### Facebook Hackercup
 
-The `#[hackercup]` will generate your main function for a single instance, it
-will automatically iterate over all problems and parse inputs using the
-`TestCase` trait.
+The `#[hackercup]` will generate your main function from the solution for a
+single case, it will automatically iterate over all cases and parse inputs
+using the `TestCase` trait usually implemented through its derive.
 
 ```rust
 use testcase_derive::{hackercup, TestCase};
